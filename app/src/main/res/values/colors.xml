@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_options">#d6d7d7</color>
+    <color name="color_gamescreen_background">#19232d</color>
+    <color name="color_gamescreen_darkbackground">#212121</color>
+    <color name="color_dialog_1">#88ddf6</color>
+    <color name="color_dialog_2">#40b4b5</color>
+    <color name="color_menu_play_1">#88bee2</color> //04a8ad
+    <color name="color_menu_play_2">#5de2a6</color>
+</resources>

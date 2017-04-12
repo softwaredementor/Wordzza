@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "387686034423",
+    "firebase_url": "https://wordzza-dc2f1.firebaseio.com",
+    "project_id": "wordzza-dc2f1",
+    "storage_bucket": "wordzza-dc2f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387686034423:android:aa9a0d8901557dc5",
+        "android_client_info": {
+          "package_name": "com.appfission.wordzza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387686034423-03gkj2la2lehoojemlangg9jvhl1q4qr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi-I7xxxE3WsBJkXRjAu38D4zHnBOmeMI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">wordzza</string>
+    <string name="appId">ca-app-pub-6578785584309010~4566861487</string>
+    <string name="testAd">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_adunit">ca-app-pub-6578785584309010/8702036289</string>
+    <string name="banner_ad_unit_id_1">ca-app-pub-6578785584309010/8997061087</string>
+    <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="play_not_available">Signing in!</string>
+    <string name="achievements_not_available">Please sign in to view achievements.</string>
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+    <string name="signin_other_error">There was an issue with sign in.  You can still play!</string>
+    <string name="your_progress_will_be_uploaded">Your existing achievements and score will be uploaded shortly.</string>
+    <string name="signed_out_greeting">Hello, user!(not signed in)</string>
+    <string name="achievement">Achievement</string>
+
+</resources>

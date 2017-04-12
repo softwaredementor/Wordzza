@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id">387686034423</string>
+    <string name="package_name">com.appfission.wordzza</string>
+    <string name="achievement_ladybug">CgkI99eNn6QLEAIQAQ</string>
+    <string name="achievement_snail">CgkI99eNn6QLEAIQAg</string>
+    <string name="achievement_duck">CgkI99eNn6QLEAIQAw</string>
+    <string name="achievement_owl">CgkI99eNn6QLEAIQBA</string>
+    <string name="achievement_penguin">CgkI99eNn6QLEAIQBQ</string>
+    <string name="achievement_mouse">CgkI99eNn6QLEAIQCA</string>
+    <string name="achievement_frog">CgkI99eNn6QLEAIQCQ</string>
+    <string name="achievement_turtle">CgkI99eNn6QLEAIQCg</string>
+    <string name="achievement_hamster">CgkI99eNn6QLEAIQCw</string>
+    <string name="achievement_squirrel">CgkI99eNn6QLEAIQDA</string>
+    <string name="achievement_hedgehog">CgkI99eNn6QLEAIQDQ</string>
+    <string name="achievement_snake">CgkI99eNn6QLEAIQDg</string>
+    <string name="achievement_sheep">CgkI99eNn6QLEAIQDw</string>
+    <string name="achievement_cow">CgkI99eNn6QLEAIQEA</string>
+    <string name="achievement_bull">CgkI99eNn6QLEAIQEQ</string>
+    <string name="achievement_giraffe">CgkI99eNn6QLEAIQEg</string>
+    <string name="achievement_bear">CgkI99eNn6QLEAIQEw</string>
+    <string name="achievement_wolf">CgkI99eNn6QLEAIQFA</string>
+    <string name="achievement_rhino">CgkI99eNn6QLEAIQFQ</string>
+    <string name="achievement_elephant">CgkI99eNn6QLEAIQFg</string>
+    <string name="achievement_lion">CgkI99eNn6QLEAIQFw</string>
+    <string name="leaderboard_leaderboard">CgkI99eNn6QLEAIQBg</string>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gamescreen_background"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ecf0f1"
+        android:gravity="center"
+        android:paddingTop="25dp"
+        android:paddingBottom="30dp"
+        android:textSize="18dp"
+        />
+        <LinearLayout
+            android:id="@+id/imageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_above="@+id/playButton"
+            android:layout_below="@+id/hello"
+            android:weightSum="12">
+            <ImageView
+                android:id="@+id/logoImage"
+                android:layout_width="90dp"
+                android:layout_height="0dp"
+                android:layout_weight="7"
+                android:gravity="top"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wordzza_logo1"/>
+            <TextView
+                android:id="@+id/wordzzaName"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:textColor="#ecf0f1"
+                android:layout_margin="5dp"
+                android:textSize="35dp"
+                android:text="Wordzza"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:fontFamily="monospace"/>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:drawableTop="@drawable/play"
+        android:gravity="center"
+        android:drawablePadding="-6dp"
+        android:paddingTop="5dp"
+        android:layout_centerInParent="true"
+        style="@style/MenuPlayButton"
+        />
+    <LinearLayout
+        android:id="@+id/achivement_leadrboard_rating_Section"
+        android:layout_below="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:weightSum="3">
+        <ImageView
+            android:id="@+id/show_achievements_button"
+            android:paddingLeft="60dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/achievements"
+            android:layout_gravity="right"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/show_leaderboards_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaderboard"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/show_rating_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ratings"
+            android:paddingRight="50dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/sign_in_bar"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:background="#f0f0f0"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:backgroundTint="#293c4e"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_why"
+            android:textColor="#ecf0f1"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+        <!--293c4e-->
+    <LinearLayout android:id="@+id/sign_out_bar"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:background="#f0f0f0"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center|end"
+        android:padding="10dp"
+        android:backgroundTint="#23313f"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <TextView android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/you_are_signed_in"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#ecf0f1"
+ />
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_out"
+            android:textSize="12sp" />
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
